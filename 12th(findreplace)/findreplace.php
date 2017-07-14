@@ -6,7 +6,7 @@ $offset= 0;
         $search = $_POST['search'];
         $replace = $_POST['replace'];
         $search_length = strlen($search);
-        if(!empty($_POST['text'])&&!empty($_POST['search'])&&!empty($_POST['replace'])){//checking that inout boxes and text area should be non empty.
+        if(!empty($_POST['text'])&&!empty($_POST['search'])&&!empty($_POST['replace'])){//checking that input boxes and textarea should be non empty.
             while($strpos = strpos($text,$search,$offset)){//getting position of string we want to replace
                 $offset=$strpos;
                 $text = substr_replace($text,$replace,$offset,$search_length);
