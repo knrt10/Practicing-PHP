@@ -1,9 +1,11 @@
 <?php
-$ip = $_SERVER['REMOTE_ADDR'];
+require 'config.php';
 
-function ip(){
-    global $ip;//we need to specify this urgently for any variable outside this func that we want to access.
-    echo $string = "Your IP address is $ip";
+foreach($ip_blocked as $ip){
+    if($ip==$ip_address){
+        die('Fuck off cause your IP '.$ip_address .' is fucking blocked');
+    }
 }
-ip();
+
 ?>
+<h1>Welcome</h1>
