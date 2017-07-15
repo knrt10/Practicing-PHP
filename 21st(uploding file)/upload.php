@@ -24,7 +24,7 @@ if(isset($name)){
             echo "There was an error";
         }  
     }else{
-            echo "You can upload only jpg/jpeg format and must be less than 3mb";
+            echo "You can upload only jpg/jpeg format and must be less than 3MB";
         }
     }
     else{
