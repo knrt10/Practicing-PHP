@@ -13,7 +13,7 @@
             $reading = file('name.txt');//we open in reading array format 
             $reading_count = count($reading);
             foreach($reading as $names){//we read it as an array
-                echo trim($names);
+                echo trim($names);//trim fucntion removes white spaces from both ends
                 if($count<$reading_count){//to avoid (,) at the end of list
                     echo ", ";
                 }
