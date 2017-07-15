@@ -1,7 +1,8 @@
 <?php
     session_start();
-if(isset($_SESSION['username'])){
-    echo "Welcome , ".$_SESSION['username'];
+if(isset($_SESSION['username'])&&isset($_SESSION['email'])){
+    echo "Welcome , ".$_SESSION['username']."<br/>Logged with ". $_SESSION['email']
+        ;
 }else{
     echo "Please login";
 }
