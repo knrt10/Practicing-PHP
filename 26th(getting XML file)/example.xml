@@ -1,0 +1,27 @@
+<players>
+    <player>
+        <name>Ronaldo</name>
+        <age>32</age>
+        <show>
+            <showcase>Nishakata</showcase>
+            <showdate>12th august</showdate>
+        </show>
+        <show>
+            <showcase>Ashileysdfas</showcase>
+            <showdate>30february</showdate>
+        </show>
+    </player>
+    <player>
+        <name>Messi</name>
+        <age>30</age>
+    </player>
+    <player>
+        <name>Knrt</name>
+        <age>20</age>
+    </player>
+    <player>
+        <name>Bale</name>
+        <age>27</age>
+    </player>
+</players>
+<!-- XML stands for extensive markup language .It has markup tags just like html. Basis concept of XML file is that we can create out own custom tags.-->
