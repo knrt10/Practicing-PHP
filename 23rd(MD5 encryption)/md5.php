@@ -3,7 +3,7 @@
 /*
         
         MD5 hashing is a one sided encryption . You cannot change back hashed part to normal string.
-        Also it is not so much secured was of hashing as it can be exploited by brute force attack.
+        Also it is not so much secured way of hashing as it can be exploited by brute force attack.
         But it can be used when storing data to databases.
         
 */
