@@ -1,5 +1,5 @@
 <?php
-require 'core.php';
+
 if(isset($_POST['username'])&&isset($_POST['password'])){
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -13,8 +13,10 @@ if(isset($_POST['username'])&&isset($_POST['password'])){
                     if($query_num_rows==0){
                         echo "Invalid username/password combination";
                     }
-                    else {
-                        echo "cool";
+                    else if($query_num_rows==1){
+                        $user_id = mysql_result($query_run,0,'id');
+                        $_SESSION['user_id']= $user_id;
+                        header('Location: index.php');
                     }
                 }
             
