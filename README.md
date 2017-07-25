@@ -10,4 +10,6 @@ To Run these scripts you need to have XAMMP controller or any other server that 
 
 ## You can visit at link below
 
-<a href="https://loginapp-10.appspot.com/">Google Verified site Made by KNRT Here</a>
+<a href="https://loginchats.com/"> Verified site Made using these codes by KNRT</a>
+
+## Above link has many extra features which i did not upload .
