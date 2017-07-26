@@ -1,14 +1,14 @@
 <?php
 header('Content-type: image/jpeg');
 
-mysql_connect('localhost','root','');
-mysql_select_db('login');//name of database . i took anything 
+mysql_connect('$ip','$user','$password');
+mysql_select_db('$database table');//name of database . i took anything 
 
 
 
     if(isset($_GET['id'])){
         $id = $_GET['id'];
-        $query = mysql_query("SELECT `email` FROM `login` WHERE `id`= '".mysql_real_escape_string($id)."'");
+        $query = mysql_query("SELECT `email` FROM `$table` WHERE `id`= '".mysql_real_escape_string($id)."'");
             if(mysql_num_rows($query)>=1){
                 $email = mysql_result($query , 0 ,'email');
 
