@@ -28,7 +28,8 @@ if(isset($_POST['username'])&&isset($_POST['password'])){
 
 ?>
 <h1>Login</h1>
-
+<hr width="11%" style="float:left;clear:both;"/>
+<br/>
 <form action="<?php echo $current_file ; ?>" method="post">
     Username:<br/><br/>
     <input type="text" name="username" maxlength="20"/><br/><br/>

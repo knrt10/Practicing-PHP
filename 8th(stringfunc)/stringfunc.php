@@ -1,7 +1,7 @@
 <?php
-$str= "image.jpg";
+$str= "/knrt10";
 $str_shuffeled = str_shuffle($str);//shuffle randomly
-echo $str_substr = substr($str_shuffeled,0,strlen($str)/2);//substring cuts the shuffeled into half length of str
+echo $str_substr = substr($str,1,strlen($str));//substring cuts the shuffeled into half length of str
 echo "<br/>";
 $str_rev = strrev($str);//reverses string
 $str_rev_sub = substr($str_rev,0,3); //gets jpeg part

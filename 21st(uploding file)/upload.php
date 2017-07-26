@@ -1,6 +1,6 @@
 <?php
 $name = $_FILES['file']['name'];//file name
-$size = $_FILES['file']['size'];//file size in bytes
+echo $size = $_FILES['file']['size'];//file size in bytes
 $type = $_FILES['file']['type'];//file type
 
 $extension = substr($name,strpos($name,".")+1);//sometimes format comes in capital letters it gets format .
